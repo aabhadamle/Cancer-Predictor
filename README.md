@@ -1,8 +1,10 @@
-🩺 Breast Cancer Prediction Web App
+## 🩺 Breast Cancer Prediction using Flask API
+
 A simple Flask-based web app to predict whether a breast tumor is malignant or benign using a trained machine learning model based on the Breast Cancer Wisconsin dataset.
 
 
-🔍 Features
+### 🔍 Features
+
 User-friendly web interface
 
 Takes 4 key diagnostic features as input
@@ -13,7 +15,8 @@ Built with Flask & Scikit-learn
 
 Clean UI with image and styled layout
 
-📁 Project Structure
+### 📁 Project Structure
+
 php
 Copy
 Edit
@@ -28,12 +31,14 @@ breast_cancer_app/
 │   └── cancer_icon.png   # Relevant medical image
 └── README.md
 
-⚙️ How to Run the App
+### ⚙️ How to Run the App
+
 1️⃣ Clone the Repository
 
 `git clone https://github.com/your-username/breast-cancer-predictor.git`
 
 `cd breast-cancer-predictor`
+
 2️⃣ Install Dependencies
 
 `pip install -r requirements.txt`
@@ -55,14 +60,17 @@ This will generate model.pkl.
 Open your browser and visit:
 📍 http://127.0.0.1:5000/
 
-✍️ Sample Inputs to Try
+### ✍️ Sample Inputs to Try
+
 Feature	Value
+
 Mean Radius	17.99
 Mean Texture	10.38
 Mean Perimeter	122.8
 Mean Area	1001.0
 
-🧠 Tech Stack
+### 🧠 Tech Stack
+
 Python
 
 Flask
@@ -71,7 +79,8 @@ scikit-learn
 
 HTML, CSS (custom styling)
 
-✅ Future Improvements
+### ✅ Future Improvements
+
 Add confidence score for predictions
 
 Upload CSV for batch predictions
