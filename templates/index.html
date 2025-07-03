@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Breast Cancer Prediction</h2>
+        <p>Enter the values below to check if the tumor is likely to be benign or malignant.</p>
+
+        <form method="POST" action="/predict">
+            <input type="text" name="radius" placeholder="Mean Radius" required><br>
+            <input type="text" name="texture" placeholder="Mean Texture" required><br>
+            <input type="text" name="perimeter" placeholder="Mean Perimeter" required><br>
+            <input type="text" name="area" placeholder="Mean Area" required><br>
+            <button type="submit">Predict</button>
+        </form>
+        <p class="result">{{ prediction_text }}</p>
+    </div>
+</body>
+</html>
