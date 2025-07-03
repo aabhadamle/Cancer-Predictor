@@ -15,22 +15,6 @@ Built with Flask & Scikit-learn
 
 Clean UI with image and styled layout
 
-### 📁 Project Structure
-
-php
-Copy
-Edit
-breast_cancer_app/
-├── app.py                # Flask app
-├── model.pkl             # Trained ML model
-├── model_builder.py      # Script to train and save model
-├── templates/
-│   └── index.html        # Frontend form
-├── static/
-│   ├── style.css         # Custom styles
-│   └── cancer_icon.png   # Relevant medical image
-└── README.md
-
 ### ⚙️ How to Run the App
 
 1️⃣ Clone the Repository
