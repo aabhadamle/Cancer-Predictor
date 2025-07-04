@@ -49,8 +49,11 @@ Open your browser and visit:
 Feature	Value
 
 Mean Radius	17.99
+
 Mean Texture	10.38
+
 Mean Perimeter	122.8
+
 Mean Area	1001.0
 
 ### 🧠 Tech Stack
