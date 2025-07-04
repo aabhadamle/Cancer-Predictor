@@ -2,6 +2,11 @@
 
 A simple Flask-based web app to predict whether a breast tumor is malignant or benign using a trained machine learning model based on the Breast Cancer Wisconsin dataset.
 
+## 🚀 Deployment
+
+This application is deployed using **Render**, a cloud platform for hosting web services.
+
+🔗 **Live App:** [https://breast-cancer-predictor-s97m.onrender.com/](https://breast-cancer-predictor-s97m.onrender.com/)
 
 ### 🔍 Features
 
